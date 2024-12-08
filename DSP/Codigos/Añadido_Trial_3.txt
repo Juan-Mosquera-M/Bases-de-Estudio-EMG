@@ -1,0 +1,16 @@
+El trial 3 presenta problemas en el canal "Right Gastrocnemius lateralis" hasta el frame (muestra) 114.
+
+Para eso pondremos esta linea de código, esta linea cortara los datos corruptos:
+
+ch4 = signal_data_filtered['Right Gastrocnemius lateralis'].iloc[115:]
+time = signal_data_filtered['Time'].iloc[115:]
+
+plt.plot(time,ch4)
+plt.xlabel('Tiempo [seg]')
+plt.ylabel('Amplitud [mV]')
+plt.title('Canal Right Gastrocnemius lateralis')
+plt.show()
+
+Ahora, aquí sustituimos los datos viejos por los datos recortados:
+
+signal_data_final = signal_data_filtered.iloc[115:,:]

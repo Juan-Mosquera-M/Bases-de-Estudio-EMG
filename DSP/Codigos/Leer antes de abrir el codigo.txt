@@ -1,0 +1,5 @@
+Este codigo sirve para cada uno de los 'Trial'.
+
+Si se desea hacer una prueba con otro trial es necesario cargar ese archivo al google drive, dejarlo en la pagina principal y posteriormente cambiar el archivo donde dice "Ruta del archivo".
+Si se desea ver otro musculo es necesario cambiar en el codigo el canal al que pertence ese musculo, siendo "ch1" el Right tibialis anterior y el "ch8" el Left Gastrocnemius lateralis. El resto de musculos van en orden creciente.
+Si quizo ver otro musculo sera necesario que cambie el nombre del canal en todos los procesos posteriores, esto con el fin de que los graficos y filtros se hagan con los datos del musculo que usted establecio.
